@@ -368,15 +368,17 @@ header {
 
 .dashboardnavs {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-right: 10em;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 3em;
+    /* padding-right: 10em; */
 }
 
 .dashboardmenu {
     display: flex;
-    /* justify-content: space-around; */
-    /* background-color: rgba(255, 68, 0, 0.878); */
+    justify-content: space-around;
+    background-color: rgba(255, 68, 0, 0.878);
+    align-items: baseline;
     /* padding-right: 4em; */
     /* padding-left: 4em; */
 
