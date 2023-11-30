@@ -355,16 +355,7 @@ a {
     color: black;
 }
 
-header {
-    /* position: fixed; */
-    /* width: m; */
-    /* float: right;
-  height: 100%;
-   background-color: #282828;  */
 
-    /* padding: 2em;  */
-
-}
 
 .dashboardnavs {
     display: flex;
@@ -663,7 +654,7 @@ header {
     }
 
     .subCuriCont h1 {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .Languages {
@@ -681,7 +672,7 @@ header {
         width: 90%;
         background-color: white;
         border-radius: 15px;
-        padding: 2em 1em;
+        padding: 2em 0.5em;
         margin-left: 1em;
 
 
@@ -691,7 +682,7 @@ header {
     .cont {
         padding-right: 0em;
         display: flex;
-        gap: 1em;
+        gap: 0em;
 
 
     }
@@ -704,7 +695,11 @@ header {
 
 
  /* DASHBOARD STYLING */
+ .dashbody {
+    height: 0%;
+    overflow: auto;
 
+}
  .verticalContainers {
     display: flex;
     flex-direction: row;
@@ -722,107 +717,25 @@ header {
     margin-left: 2em;
 
 }
-.dashboardmenu{
+.dashboardnavs {
     display: flex;
-    flex-direction: column;
-    background-color: aqua;
-    /* justify-content: space-around; */
-    align-items: baseline;
-    padding-right:0em ;
-    padding-left: 0em;
-
-}
-.dashboardmenu a{
-    padding: 0px;
-}
-/* .dashboardmenu {
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    flex-direction: column;
-
-    background-color: rgba(255, 68, 0, 0.878); 
-    padding-right: 4em;
-    padding-left: 1em;
- */
-
-
-.LiveClassCont {
-    background-color: rgba(245, 245, 245, 0.431);
-    display: flex;
-    justify-content: space-around;
-    margin: 0em;
-    padding: 8em;
-    width:10%;
-}
-
-.LiveClassContss {
-    /* background-color:rgba(245, 245, 245, 0.431); */
-    /* display: flex;
-    justify-content: space-around; */
-    /* margin: 5em;
-    padding: 8em ;
-    width: 70%; */
-}
-
-.footInfo {
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-}
-
-.Profile {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    gap: 2em;
+    align-items: baseline;
+    gap: 3em;
+    /* padding-right: 10em; */
 }
 
-.sectionProfile {
-    gap: 0em
-}
-
-.imgProfile {
-    border-radius: 50%;
-    width: 70%;
+.dashboardmenu {
     display: flex;
-    margin-top: 2em;
-    margin-left: 1em;
-}
-
-.personalInfo {
-    font-size: 12px;
-    padding-top: 1em;
-    margin-left: 1em;
-
-}
-
-.topicBoxes {
-    display: flex;
-    /* width: fit-content; */
-    margin: 2em;
-    align-items: center;
     justify-content: space-around;
-    /* gap: 3em; */
-    /* margin: 5em; */
-}
+    background-color: rgba(255, 68, 0, 0.878);
+    align-items: baseline;
 
-.topicBoxOne {
-    background-color: whitesmoke;
-    box-shadow: 0px 0px 0px 5px white;
-    border-radius: 5px;
-    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.068);
-    /* margin: 1em; */
 
 
 }
 
-.topicBoxOne img {
-    /* max-height: 10em; */
-    max-width: 17em;
-    border-radius: 5px;
-}
+
 
 
 
